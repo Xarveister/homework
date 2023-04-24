@@ -1,8 +1,12 @@
-stroka = input()
-"""делает все буквы заглавными"""
-print(stroka.upper())
+def up_words(word):
+    """
+    все буквы заглавные
+    """
+    return word.upper()
 
-s = input()
-"""выводит заглывным первые буквы"""
-print(s.title())
-
+def up_word(word):
+    """
+    каждое слово с заглавной буквы
+    :param word:
+    :return:
+    """
